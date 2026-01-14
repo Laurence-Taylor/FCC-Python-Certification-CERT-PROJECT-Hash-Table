@@ -16,12 +16,14 @@ Objective: Fulfill the user stories below and get all the tests to pass to compl
 
     The hash method should:
         Take a string as a parameter.
-        Return a hashed value computed as the sum of the Unicode (ASCII) values of each character in the string. You can use the ord function for this computation.
+        Return a hashed value computed as the sum of the Unicode (ASCII) values of each character in the string. You can use the 
+        ord function for this computation.
 
     The add method should:
         Take two arguments representing a key-value pair, and compute the hash of the key.
         Use the computed hash value as a key to store a dictionary containing the key-value pair inside the collection dictionary.
-        If multiple keys produce the same hash value, their key-value pairs should be stored in the existing nested dictionary under the same hash value.
+        If multiple keys produce the same hash value, their key-value pairs should be stored in the existing nested dictionary 
+        under the same hash value.
 
     The remove method should:
         Take a key as its argument and compute its hash.
